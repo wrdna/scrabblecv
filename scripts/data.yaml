@@ -1,0 +1,4 @@
+path: /home/andrew/dev/scrabbler/data/corners/diamond_captures_ultra
+train: images/train
+val: images/val
+names: ['corner']

@@ -1,0 +1,109 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# example app -- to be removed
+app-example
+
+# Python
+.ipynb_checkpoints/
+train/models/
+games/
+
+
+
+
+####### ANDROID #######
+
+# Crash log files
+hs_err_pid*
+
+# Java class files
+*.class
+
+# Ignore Gradle files
+.gradle/
+build/
+
+# generated files
+bin/
+gen/
+
+#  configuration
+.iws
+.ipr
+.iml
+# local configuration files
+local.properties
+
+# built generated package files
+*.apk
+*.ap_
+# Android Studio / IntelliJ IDEA
+*.iws
+.idea/libraries
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/workspace.xml
+/out/
+
+# OS temporary files
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# For eclipse Eclipse
+proguard/
+
+# Android Patch ###
+gen-external-apk
+libs
+
+# Packaging files
+*.jar
+*.war
+*.ear
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+
+data/*
+OpenCV-android-sdk/samples/*
+

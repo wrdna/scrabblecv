@@ -1,0 +1,1 @@
+/home/andrew/dev/scrabbler/OpenCV-android-sdk/sdk/build/intermediates/cxx/Debug/5e4e5914/obj/x86

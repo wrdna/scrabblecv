@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/andrew/dev/scrabbler/OpenCV-android-sdk/sdk/.cxx/Debug/5e4e5914/x86",
+  "command": "/home/andrew/Android/Sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/home/andrew/Android/Sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/opencv_jni_shared.dir/dummy.cpp.o -c /home/andrew/dev/scrabbler/OpenCV-android-sdk/sdk/libcxx_helper/dummy.cpp",
+  "file": "/home/andrew/dev/scrabbler/OpenCV-android-sdk/sdk/libcxx_helper/dummy.cpp"
+}
+]

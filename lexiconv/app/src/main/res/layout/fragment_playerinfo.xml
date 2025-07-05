@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playerInfo_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <NumberPicker
+        android:id="@+id/playerCountNumberPicker"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/playerNameInputList"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/startGameButton"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="227dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/start_game"
+        android:textSize="30sp"
+        app:cornerRadius="10dp" />
+</LinearLayout>

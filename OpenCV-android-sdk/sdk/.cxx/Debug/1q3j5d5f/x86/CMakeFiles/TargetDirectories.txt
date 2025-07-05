@@ -1,0 +1,3 @@
+/home/andrew/dev/scrabbler/OpenCV-android-sdk/sdk/.cxx/Debug/1q3j5d5f/x86/CMakeFiles/opencv_jni_shared.dir
+/home/andrew/dev/scrabbler/OpenCV-android-sdk/sdk/.cxx/Debug/1q3j5d5f/x86/CMakeFiles/edit_cache.dir
+/home/andrew/dev/scrabbler/OpenCV-android-sdk/sdk/.cxx/Debug/1q3j5d5f/x86/CMakeFiles/rebuild_cache.dir

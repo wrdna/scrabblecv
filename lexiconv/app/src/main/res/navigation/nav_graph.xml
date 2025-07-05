@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.boldgerg.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_homeFragment_to_playerInfoFragment"
+            app:destination="@id/playerInfoFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/playerInfoFragment"
+        android:name="com.boldgerg.PlayerInfoFragment"
+        android:label="Player Info">
+        <action
+            android:id="@+id/action_playerInfoFragment_to_scoreboardFragment"
+            app:destination="@id/scoreboardFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/scoreboardFragment"
+        android:name="com.boldgerg.ScoreboardFragment"
+        android:label="Scoreboard">
+        <action
+            android:id="@+id/action_scoreboardFragment_to_boardParserFragment"
+            app:destination="@id/boardParserFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/boardParserFragment"
+        android:name="com.boldgerg.BoardParserFragment"
+        android:label="Board Parser">
+        <action
+            android:id="@+id/action_boardParserFragment_to_scoreBoardFragment"
+            app:destination="@id/scoreboardFragment"/>
+    </fragment>
+
+</navigation>

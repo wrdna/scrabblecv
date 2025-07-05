@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/CameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:camera_id="any"
+        app:show_fps="false"/>
+
+    <Button
+        android:id="@+id/shutterButton"
+        android:layout_width="292dp"
+        android:layout_height="92dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/capture"
+        android:textSize="34sp"
+        app:cornerRadius="10dp" />
+</FrameLayout>
