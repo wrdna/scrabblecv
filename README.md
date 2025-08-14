@@ -1,2 +1,8 @@
-# scrabbler
-no longer shall you resort to manually scoring your scrabble games
+# ScrabbleCV
+
+Offload your mental math to the AI overlords.
+
+Complete technical writeup can be found @ https://and.rew.gold/berg/posts/scrabblecv
+
+
+
